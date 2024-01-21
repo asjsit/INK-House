@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,500&display=swap');
+
+
+body {
+    background-color: #F4F6F5;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #E1EDE6;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 497px;
+    padding: 33px 0;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+header .nav a {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+main .container .block {
+    width: 540px;
+}
+
+main .container .block h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+
+main .container .block h1 span {
+    color: #598D66;
+}
+
+main .container .block p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #86928B;
+}
+
+main .container .block button {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #598D66;
+
+    border: 1px solid #598D66;
+    padding: 21px 60px;
+}
+
+
+.reproduction {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.reproduction .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reproduction .box .tittle {
+    display: flex;
+    align-items: center;
+    gap: 427px;
+}
+
+.reproduction .box .tittle h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #2C2D35;
+}
+
+.reproduction .box .tittle .title__section {
+    display: flex;
+    gap: 32px;
+}
+
+.reproduction .box .tittle .title__section .tittle__button {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #2C2D35;
+    background-color: #D4E8D9;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.reproduction .box .tittle .title__section .tittle__button.active {
+    color: #F4F6F5;
+    background-color: #376B44;
+}
+
+
+.reproduction .container {
+    margin-top: 30px;
+}
+
+.reproduction .container .container__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.reproduction .container .container__list .container__list__item {
+    background-color: #E1EDE6;
+    padding: 20px;
+}
+
+.reproduction .container .container__list .container__list__item p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #86928B;
+    margin-top: 20px;
+}
+
+.reproduction .container .container__list .container__list__item h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #2C2D35;
+    margin-top: 10px;
+}
+
+.reproduction .container .container__list .container__list__item h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #2C2D35;
+    margin-top: 8px;
+}
+
+.reproduction .container .container__list .container__list__item h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #598D66;
+    margin-top: 30px;
+}
+
+.reproduction .container .container__list .container__list__item button {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #598D66;
+    padding: 21px 107.5px;
+    border: 1px solid #598D66;
+    margin-top: 20px;
+}
+
+.collection {
+    margin-top: 70px;
+    background: url(images/collection.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* height: 574px; */
+    padding: 70px 350px;
+}
+
+@media screen and (max-width: 1440px) {
+    .collection {
+        padding: 70px 165px;
+    }
+}
+
+.collection .box .img {
+    display: flex;
+    align-items: center;
+    width: 521px;
+    gap: 20px;
+}
+
+.collection .box .img h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #F4F6F5;
+}
+
+.collection .box p {
+    margin-top: 20px;
+    width: 540px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFF;
+}
+
+.collection .box button {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    background-color: #EEDB6D;
+    padding: 21px 60px;
+    color: #2C2D35;
+}
+
+
+
+.picture {
+    margin-top: 70px;
+}
+
+.picture .picture__container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.picture .picture__container .picture__text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+
+
+.picture .picture__container .picture__text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2C2D35;
+    width: 635px;
+    margin-bottom: 20px;
+}
+
+.picture .picture__container .picture__text .picture__text__img {
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    header .wrapper {
+        gap: 102px
+    }
+
+    main .container .bird img {
+        width: 330px;
+        height: 380px;
+    }
+
+    main .container .block {
+        width: 330px;
+    }
+
+    main .container .block h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .reproduction .box .tittle {
+        display: flex;
+        align-items: center;
+        gap: 63px;
+    }
+
+    .reproduction .box .tittle h1 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .reproduction .container .container__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reproduction .container .container__list .container__list__item button {
+        padding: 21px 97.5px;
+    }
+
+    .collection {
+        background: url(images/collection2.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 70px 39px;
+    }
+
+    .collection .box .img {
+        width: 450px;
+        gap: 20px;
+    }
+
+    .collection .box .img h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .collection .box p {
+        margin-top: 20px;
+        width: 690px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .collection .box button {
+        line-height: 23.48px;
+        padding: 18.5px 36.5px;
+    }
+
+    .picture .picture__container {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        margin-left: 39px;
+        gap: 0;
+    }
+
+    .picture .picture__container .picture__text h1 {
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+
+    .picture .picture__container .picture__text p {
+        font-size: 18px;
+        line-height: 27px;
+        width: 690px;
+        margin-bottom: 30px;
+    }
+
+    .picture .picture__container .picture__img img {
+        width: 510px;
+        height: 504px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header .wrapper {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 16px 0;
+    }
+
+    header .wrapper .logo {
+        padding: 0 0 16px 0;
+    }
+
+    header .wrapper .nav {
+        border-top: 1px solid #C3D1C6;
+        padding: 16px 0 0 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    main .container {
+        margin-top: 50px;
+    }
+
+    main .container .bird img {
+        width: 195px;
+        height: 239px;
+    }
+
+    main .container .block {
+        width: 330px;
+    }
+
+    main .container .block h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 10px;
+        width: 285px;
+    }
+
+    main .container .block p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 285px;
+    }
+
+    main .container .block button {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 14.5px 41px;
+        margin-top: 10px;
+    }
+
+    .reproduction .box .tittle {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .reproduction .box .tittle h1 {
+        font-size: 30px;
+        line-height: 33px;
+        margin-right: 235px;
+        margin-bottom: 30px;
+    }
+
+    .reproduction .container .container__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reproduction .container .container__list .container__list__item p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .reproduction .container .container__list .container__list__item h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .reproduction .container .container__list .container__list__item h2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .reproduction .container .container__list .container__list__item h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .reproduction .container .container__list .container__list__item button {
+        padding: 14.5px 57px;
+    }
+
+    .collection {
+        background: url(images/collection3.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 50px 33px;
+    }
+
+    .collection .box .img {
+        /* width: 331px; */
+        gap: 20px;
+    }
+
+    .collection .box .img h1 {
+        font-size: 24px;
+        line-height: 24px;
+
+    }
+
+    .collection .box p {
+        margin-top: 20px;
+        width: 510px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .collection .box button {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 14.5px 35px;
+    }
+
+    .picture .picture__container {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        margin-left: 39px;
+        gap: 0;
+    }
+
+    .picture .picture__container .picture__text h1 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .picture .picture__container .picture__text p {
+        font-size: 16px;
+        line-height: 22px;
+        width: 510px;
+    }
+
+    .picture .picture__container .picture__img img {
+        width: 375px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .wrapper {
+        gap: 0px;
+        background-color: #E1EDE6;
+        display: flex;
+        flex-direction: column;
+        padding: 16px 0;
+    }
+
+    header .wrapper .logo {
+        padding: 0;
+    }
+
+    header .wrapper .nav {
+        display: none;
+    }
+
+    main .container {
+        margin-top: 50px;
+    }
+
+    main .container .bird img {
+        display: none;
+    }
+
+    main .container .block {
+        width: 330px;
+    }
+
+    main .container .block h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 285px;
+    }
+
+    main .container .block p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 290px;
+    }
+
+    main .container .block button {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 10px;
+        padding: 14.5px 29px;
+    }
+
+    .reproduction .box .tittle {
+        display: none;
+    }
+
+    .reproduction .box .tittle h1 {
+        margin-right: 120px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .reproduction .box .tittle .title__section .tittle__button {
+        padding: 10px 20px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .reproduction .container .container__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reproduction .container .container__list .container__list__item p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .reproduction .container .container__list .container__list__item img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .reproduction .container .container__list .container__list__item h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .reproduction .container .container__list .container__list__item h2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .reproduction .container .container__list .container__list__item h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .reproduction .container .container__list .container__list__item button {
+        padding: 14.5px 82px;
+    }
+
+    .collection .box .img {
+        width: 290px;
+        gap: 20px;
+    }
+    .collection .box .img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .collection .box .img h1 {
+        font-size: 24px;
+        line-height: 24px;
+        width: 290px;
+    }
+
+    .collection .box p {
+        width: 290px;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        
+    }
+
+    .collection .box button {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 14.5px 83.5px;
+    }
+
+    .picture .picture__container {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        gap: 0;
+    }
+
+    .picture .picture__container .picture__text h1 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .picture .picture__container .picture__text p {
+        font-size: 16px;
+        line-height: 22px;
+        width: 290px;
+    }
+
+    .picture .picture__container .picture__img img {
+        width: 290px;
+        height: 286px;
+    }
+}
